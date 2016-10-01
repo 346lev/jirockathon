@@ -1,0 +1,10 @@
+{
+  "name": "JiroBukken",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "suumoの物件一覧にジロリアンおすすめ度を表示",
+  "content_scripts": [{
+    "matches": ["http://suumo.jp/jj/chintai/ichiran/*"],
+    "js": ["jquery-3.1.1.min.js", "app.js"]
+  }]
+}
