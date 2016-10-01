@@ -7,6 +7,7 @@
     "matches": ["http://suumo.jp/jj/chintai/ichiran/*"],
     "js": ["jquery-3.1.1.min.js", "app.js", "jiro_latlng.js", "getgeo.js"]
   }],
+  "web_accessible_resources": ["fukidashi.css"],
   "browser_action": {
     "default_popup": "popup.html"
   }
