@@ -1,4 +1,93 @@
 @charset "utf8";
 html {
-    width: 300px;
+    width: 416px;
+    padding: 8px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    font-family:"游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+.u-mask{
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+}
+.u-displayFlex{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.u-displayFlex--spaceBetween{
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+}
+.p-ttl{
+    text-align: center;
+}
+.p-list{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.p-list+.p-list{
+    margin-top: 16px;
+}
+.p-list__item{
+    width: 120px;
+    height: 120px;
+    font-size: 18px;
+    line-height: 120px;
+    text-align: center;
+    list-style-type: none;
+}
+.p-list__item:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.p-list__item--meguro{
+    background: url(http://www.geocities.co.jp/Foodpia-Olive/3433/img005.jpg);
+    background-size: cover;
+}
+.p-list__item--mita{
+    background: url(http://www.geocities.co.jp/Foodpia-Olive/3433/img226.jpg);
+    background-size: cover;    
+}
+.p-list__item--kabukicho{
+    background: url(http://www.geocities.co.jp/Foodpia-Olive/3433/img171.jpg);
+    background-size: cover;
+}
+.p-list__item--shinagawa{
+    background: url(http://www.geocities.co.jp/Foodpia-Olive/3433/img115.jpg);
+    background-size: cover;
+}
+.p-list__item--senkawa{
+    background: url(http://www.geocities.co.jp/Foodpia-Olive/3433/img007.jpg);
+    background-size: cover;
+}
+.p-list__item--ikebukuro{
+    background: url(http://www.geocities.co.jp/Foodpia-Olive/3433/img047.jpg);
+    background-size: cover;
+}
+.p-list__item--yaen{
+    background: url(http://www.geocities.co.jp/Foodpia-Olive/3433/img183.jpg);
+    background-size: cover;
+}
+.p-list__item--sagamiono{
+    background: url(http://www.geocities.co.jp/Foodpia-Olive/3433/img065.jpg);
+    background-size: cover;
+}
+.p-list__item--sakuradai{
+    background: url(http://www.geocities.co.jp/Foodpia-Olive/3433/img103.jpg);
+    background-size: cover;
+}
+.p-list__item__link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #666;
 }
