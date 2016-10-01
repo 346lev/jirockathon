@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "description": "suumoの物件一覧にジロリアンおすすめ度を表示",
   "content_scripts": [{
-    "matches": ["http://suumo.jp/jj/chintai/ichiran/*"],
+    "matches": ["http://suumo.jp/*"],
     "js": ["jquery-3.1.1.min.js", "distance.js", "jiro_latlng.js", "getgeo.js", "app.js"]
   }],
   "web_accessible_resources": ["fukidashi.css"],
